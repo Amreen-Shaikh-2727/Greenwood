@@ -1,15 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-<body>
-    <div class="flex justify-between">
-        <div class="flex justify-between">
-        <a href="#" class="text-xl">Greenwood</a><span class="">open sat</span></div>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body class="bg-gray-50">
+    <div class="flex justify-around py-3 bg-white/70 backdrop-blur-md sticky z-50 top-0 items-center">
+      <div class="flex justify-between">
+        <a href="#" class="text-xl font-semibold">Greenwood</a>
+        <span
+          class="text-sm gap-4 flex items-center rounded-full bg-green-200 text-green-900 p-1 ml-2 font-bold"
+          >Open Sat</span
+        >
+      </div>
+      <div class="">
+        <ul class="flex justify-around gap-7 text-gray-700 ">
+          <li class="border-b-2 after:w-0 hover:after:w-full border-transparent hover:border-black transition"><a href="">Section</a></li>
+          <li class=""><a href="">Gallery</a></li>
+          <li class=""><a href="">Membership</a></li>
+          <li class=""><a href="">Events</a></li>
+        </ul>
+      </div>
+      <div class="">
+        <button class="rounded-xl bg-white-50 px-1 hover:bg-black hover:text-white border border-gray-200"> Visit us </button>
+      </div>
     </div>
-</body>
+  </body>
 </html>
