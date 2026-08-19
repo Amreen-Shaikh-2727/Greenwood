@@ -70,35 +70,35 @@
     </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mr-15 ml-15">
-      <div class="bg-gray-100 rounded-2xl p-6 hover:bg-emerald-50">
-        <h1 class="font-bold p-2">Fiction & Litrature</h1>
+      <div class="group bg-gray-100 rounded-2xl p-6 hover:bg-emerald-50">
+        <h1 class="font-bold p-2 group-hover:text-green-500">Fiction & Litrature</h1>
         <p class="text-gray-500 p-2">Novels, short stories and Old books</p>
-        <a href="" class="text-gray-600 p-2 underline">Fiction</a>
+        <a class="text-gray-600 p-2 underline group-hover:text-green-500">Fiction</a>
       </div>
-      <div class="bg-gray-100 rounded-2xl p-6 hover:bg-cyan-50">
-        <h1 class="font-bold p-2">Children's Corner</h1>
+      <div class="group bg-gray-100 rounded-2xl p-6 hover:bg-cyan-50">
+        <h1 class="font-bold p-2 group-hover:text-blue-400">Children's Corner</h1>
         <p class="text-gray-500 p-2">Picture books,early readers and cozy dpace for yound learner</p>
-        <a href="" class="text-gray-600 p-2 underline">for childrens</a>
+        <a  class="text-gray-600 p-2 underline group-hover:text-blue-400">for childrens</a>
       </div>
-      <div class="bg-gray-100  rounded-2xl p-6 hover:bg-yellow-50">
-        <h1 class="font-bold p-2">Science & Technology</h1>
+      <div class="group bg-gray-100  rounded-2xl p-6 hover:bg-yellow-50">
+        <h1 class="font-bold p-2 group-hover:text-yellow-400">Science & Technology</h1>
         <p class="text-gray-500 p-2">Research journalsTextbooks and STIM refrence materials</p>
-        <a href="" class="text-gray-600 p-2 underline">Science</a>
+        <a href="" class="text-gray-600 p-2 underline group-hover:text-yellow-400">Science</a>
       </div>
-      <div class="bg-gray-100  rounded-2xl p-6 hover:bg-red-50">
-        <h1 class="font-bold p-2">History & Culture</h1>
+      <div class="group bg-gray-100  rounded-2xl p-6 hover:bg-red-50">
+        <h1 class="font-bold p-2 group-hover:text-red-400">History & Culture</h1>
         <p class="text-gray-500 p-2">Local archieves, world Collection ,art History and Cultural studies</p>
-        <a href="" class="text-gray-600 p-2 underline">History</a>
+        <a href="" class="text-gray-600 p-2 underline group-hover:text-red-400">History</a>
       </div>
-      <div class="bg-gray-100  rounded-2xl p-6 hover:bg-orange-50">
-        <h1 class="font-bold p-2">Periodicals & Newspaper</h1>
+      <div class="group bg-gray-100  rounded-2xl p-6 hover:bg-orange-50">
+        <h1 class="font-bold p-2 group-hover:text-orange-400">Periodicals & Newspaper</h1>
         <p class="text-gray-500 p-2">Daily paper weekly Newspaper, and counted journal subscription</p>
-        <a href="" class="text-gray-600 p-2 underline">Newspapers</a>
+        <a href="" class="text-gray-600 p-2 underline group-hover:text-orange-400">Newspapers</a>
       </div>
-      <div class="bg-gray-100  rounded-2xl p-6 hover:bg-blue-50">
-        <h1 class="font-bold p-2">Digital Media Lab</h1>
+      <div class="group bg-gray-100  rounded-2xl p-6 hover:bg-blue-50">
+        <h1 class="font-bold p-2 group-hover:text-cyan-400">Digital Media Lab</h1>
         <p class="text-gray-500 p-2">Public omputers,e-book access and digital library resources</p>
-        <a href="" class="text-gray-600 p-2 underline">Digital</a>
+        <a href="" class="text-gray-600 p-2 underline group-hover:text-cyan-400">Digital</a>
       </div>
     </div>
     
@@ -111,32 +111,44 @@
           <button class="rounded-2xl bg-black lg:px-3 py-0.5 hover:bg-gray-500 text-white border border-gray-200 cursor-pointer ">View All</button>
         </div>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mx-15 my-5">
-      <div>
-        <img class="w-full h-70 rounded-2xl hover:scale-105 duration-600 ease-in" src="assets/hero.jpg" alt="">
+
+      <div class="group relative overflow-hidden rounded-lg shadow-md bg-white">
+        <div class="overflow-hidden">
+        <img class="w-full h-70  group-hover:scale-105 duration-600 ease-in" src="assets/hero.jpg" alt="">
+        </div>
         <div class="flex justify-between p-3">
           <p class="text-gray-500">Reading Hall</p>
-          <button class="border border-gray-200 rounded px-2 cursor-pointer">more place</button>
+          <span class="border border-gray-200 rounded px-2 ">more place</span>
         </div>
       </div>
-       <div>
-        <img class="w-full h-70 rounded-2xl hover:scale-105 duration-600 ease-in" src="assets/3.avif" alt="">
+      
+       <div class="group relative overflow-hidden rounded-lg shadow-md bg-white">
+        <div class="overflow-hidden">
+        <img class="w-full h-70  group-hover:scale-105 duration-600 ease-in" src="assets/fiction.avif" alt="">
+        </div>
         <div class="flex justify-between p-3">
-          <p class="text-gray-500">Fiction Collection</p>
-          <button class="border border-gray-200 rounded px-2 cursor-pointer">2nd Floor</button>
+          <p class="text-gray-500">Fiction</p>
+          <span class="border border-gray-200 rounded px-2 ">2nd Floor</span>
         </div>
       </div>
-       <div>
-        <img class="w-full h-70 rounded-2xl hover:scale-105 duration-600 ease-in" src="assets/2" alt="">
+
+       <div class="group relative overflow-hidden rounded-lg shadow-md bg-white">
+        <div class="overflow-hidden">
+        <img class="w-full h-70  group-hover:scale-105 duration-600 ease-in" src="assets/2" alt="">
+        </div>
         <div class="flex justify-between p-3">
-          <p class="text-gray-500">Archieves</p>
-          <button class="border border-gray-200 rounded px-2 cursor-pointer">First Floor</button>
+          <p class="text-gray-500">Archieve wing</p>
+          <span class="border border-gray-200 rounded px-2 "> 1st Floor</span>
         </div>
       </div>
-       <div>
-        <img class="w-full h-70 rounded-2xl hover:scale-105 duration-600 ease-in" src="assets/fiction.avif" alt="">
+
+       <div class="group relative overflow-hidden rounded-lg shadow-md bg-white">
+        <div class="overflow-hidden">
+        <img class="w-full h-70  group-hover:scale-105 duration-600 ease-in" src="assets/3.avif" alt="">
+        </div>
         <div class="flex justify-between p-3">
           <p class="text-gray-500">Digital Media Lab</p>
-          <button class="border border-gray-200 rounded px-2 cursor-pointer">Ground Floor</button>
+          <span class="border border-gray-200 rounded px-2 ">Ground Floor</span>
         </div>
       </div>
     </div>
